@@ -6,9 +6,9 @@ A Streamlit-based RAG (Retrieval-Augmented Generation) chatbot that lets you upl
 
 ```
 rag-pdf-chatbot/
-├── app.py
-├── requirements.txt
-└── .env.example
+── app.py
+── requirements.txt
+── .env.example
 ```
 
 ## Features
@@ -59,3 +59,7 @@ streamlit run app.py
 2. The PDF is loaded, split into chunks, and embedded
 3. Embeddings are stored in Pinecone under a unique namespace (based on filename + content hash)
 4. Ask questions — the system retrieves relevant chunks and generates answers using Groq
+
+## Daily Activity Log
+
+- **1 Aug 2026**: README updated as part of daily GitHub commit streak + badges practice.
